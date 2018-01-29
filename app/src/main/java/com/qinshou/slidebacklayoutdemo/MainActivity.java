@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         SlideBackLayout mSlideBackLayout = new SlideBackLayout(this);
         //绑定 Activity
         mSlideBackLayout.bindActivity(this);
+        mSlideBackLayout.unbindActivity();
         //初始化 ViewPager
         ViewPager vpTest = (ViewPager) findViewById(R.id.vp_test);
         int[] resource = new int[]{R.drawable.a, R.drawable.b, R.drawable.c
